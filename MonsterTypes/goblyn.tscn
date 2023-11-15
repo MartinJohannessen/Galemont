@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://bggkc2ulo1r5m" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin8.png" id="9_0yey4"]
 [ext_resource type="Texture2D" uid="uid://ubr3paemctc6" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin9.png" id="10_apgga"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_0nvrv"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_mqjwr"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -49,4 +49,5 @@ animations = [{
 [node name="Goblyn" instance=ExtResource("1_pyy1v")]
 
 [node name="AnimatedSprite2D" parent="." index="2"]
-sprite_frames = SubResource("SpriteFrames_0nvrv")
+sprite_frames = SubResource("SpriteFrames_mqjwr")
+frame_progress = 0.136535

@@ -1,0 +1,49 @@
+[gd_scene load_steps=11 format=3 uid="uid://csamwf186d77w"]
+
+[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_xmpmw"]
+[ext_resource type="Texture2D" uid="uid://iypvonuxby2o" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller1.png" id="2_76jan"]
+[ext_resource type="Texture2D" uid="uid://b2em6e81qtswm" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller2.png" id="3_7igw8"]
+[ext_resource type="Texture2D" uid="uid://cmrdtaqtlr340" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller3.png" id="4_ml3ya"]
+[ext_resource type="Texture2D" uid="uid://cqqs88he8tgvs" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller4.png" id="5_wxjir"]
+[ext_resource type="Texture2D" uid="uid://crvts2jim3v1h" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller5.png" id="6_yxscn"]
+[ext_resource type="Texture2D" uid="uid://5byeyr15bpsw" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller6.png" id="7_njpa7"]
+[ext_resource type="Texture2D" uid="uid://b8tw1kwqt0p6v" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller7.png" id="8_546nq"]
+[ext_resource type="Texture2D" uid="uid://cc8bcnrf23khk" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller8.png" id="9_pmkwu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7eeh1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_76jan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7igw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ml3ya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wxjir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_yxscn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_njpa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_546nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pmkwu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Traveller" instance=ExtResource("1_xmpmw")]
+
+[node name="AnimatedSprite2D" parent="." index="2"]
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_7eeh1")

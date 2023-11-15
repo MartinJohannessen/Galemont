@@ -9,6 +9,7 @@ script = ExtResource("1_y7n86")
 rotation = -0.785398
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 rotation = -0.785398

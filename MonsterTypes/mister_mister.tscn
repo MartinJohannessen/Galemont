@@ -1,0 +1,65 @@
+[gd_scene load_steps=15 format=3 uid="uid://bk360lnst0lky"]
+
+[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_stbh7"]
+[ext_resource type="Texture2D" uid="uid://bf4xe41jyl284" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister1.png" id="2_iokag"]
+[ext_resource type="Texture2D" uid="uid://fyf22jy1jkgp" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister2.png" id="3_hjdh8"]
+[ext_resource type="Texture2D" uid="uid://cr5w3uyk8k3og" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister3.png" id="4_ih5cb"]
+[ext_resource type="Texture2D" uid="uid://celfkjsf168pf" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister4.png" id="5_xa75s"]
+[ext_resource type="Texture2D" uid="uid://ciaax5bamei3i" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister5.png" id="6_pqh0u"]
+[ext_resource type="Texture2D" uid="uid://cevcpjhqo1ofy" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister6.png" id="7_pcuex"]
+[ext_resource type="Texture2D" uid="uid://ckwbxxbkc6rrp" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister7.png" id="8_cjlbu"]
+[ext_resource type="Texture2D" uid="uid://cuvmp0mhg1hpq" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister8.png" id="9_3uba4"]
+[ext_resource type="Texture2D" uid="uid://c7a8t4sg43cio" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister9.png" id="10_jw67w"]
+[ext_resource type="Texture2D" uid="uid://ra5etbtpmhey" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister10.png" id="11_ocd3w"]
+[ext_resource type="Texture2D" uid="uid://df6jtxkk017lu" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister11.png" id="12_85clg"]
+[ext_resource type="Texture2D" uid="uid://b5r2i786l8a6b" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister12.png" id="13_ppglc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5i0ms"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_iokag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hjdh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ih5cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xa75s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pqh0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_pcuex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cjlbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3uba4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jw67w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ocd3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_85clg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ppglc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="MisterMister" instance=ExtResource("1_stbh7")]
+
+[node name="AnimatedSprite2D" parent="." index="2"]
+sprite_frames = SubResource("SpriteFrames_5i0ms")
+frame_progress = 0.138463

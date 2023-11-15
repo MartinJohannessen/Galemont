@@ -1,0 +1,40 @@
+[gd_scene load_steps=9 format=3 uid="uid://biu71twb53wa8"]
+
+[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_sgp5q"]
+[ext_resource type="Texture2D" uid="uid://dimjby1pglc5j" path="res://Art Assets/Monsters/32x32/Mimic/sMimic1.png" id="2_7rqh1"]
+[ext_resource type="Texture2D" uid="uid://d114ueolrc0mg" path="res://Art Assets/Monsters/32x32/Mimic/sMimic2.png" id="3_7uilj"]
+[ext_resource type="Texture2D" uid="uid://cyrqjk3apdbve" path="res://Art Assets/Monsters/32x32/Mimic/sMimic3.png" id="4_6g081"]
+[ext_resource type="Texture2D" uid="uid://c8ljronwoycfr" path="res://Art Assets/Monsters/32x32/Mimic/sMimic4.png" id="5_pehtd"]
+[ext_resource type="Texture2D" uid="uid://brfajlbobrt15" path="res://Art Assets/Monsters/32x32/Mimic/sMimic5.png" id="6_m1vnp"]
+[ext_resource type="Texture2D" uid="uid://dnv7xbf43pvn2" path="res://Art Assets/Monsters/32x32/Mimic/sMimic.png" id="7_00c4b"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dlieg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_7rqh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7uilj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6g081")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_pehtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_m1vnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_00c4b")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Mimic" instance=ExtResource("1_sgp5q")]
+
+[node name="AnimatedSprite2D" parent="." index="2"]
+sprite_frames = SubResource("SpriteFrames_dlieg")
