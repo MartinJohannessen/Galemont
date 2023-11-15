@@ -1,0 +1,52 @@
+[gd_scene load_steps=12 format=3 uid="uid://itan68bi350g"]
+
+[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_pyy1v"]
+[ext_resource type="Texture2D" uid="uid://dl76vuvofueyd" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin1.png" id="2_0uh0a"]
+[ext_resource type="Texture2D" uid="uid://bv2ovxcnfa5s6" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin2.png" id="3_cfhvo"]
+[ext_resource type="Texture2D" uid="uid://fvbgwct1qa4y" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin3.png" id="4_jsmuq"]
+[ext_resource type="Texture2D" uid="uid://b2bwby0m2e8vi" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin4.png" id="5_7fnbd"]
+[ext_resource type="Texture2D" uid="uid://h1ur861qoa1k" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin5.png" id="6_qua6v"]
+[ext_resource type="Texture2D" uid="uid://c06ed6m1alhxh" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin6.png" id="7_hlgeh"]
+[ext_resource type="Texture2D" uid="uid://bfekrcx7ekfk0" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin7.png" id="8_4yn0e"]
+[ext_resource type="Texture2D" uid="uid://bggkc2ulo1r5m" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin8.png" id="9_0yey4"]
+[ext_resource type="Texture2D" uid="uid://ubr3paemctc6" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin9.png" id="10_apgga"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0nvrv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0uh0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cfhvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jsmuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7fnbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qua6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_hlgeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4yn0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0yey4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_apgga")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Goblyn" instance=ExtResource("1_pyy1v")]
+
+[node name="AnimatedSprite2D" parent="." index="2"]
+sprite_frames = SubResource("SpriteFrames_0nvrv")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv5lkhwu1ntye"]
+
+[ext_resource type="Script" path="res://monster.gd" id="1_y7n86"]
+
+[node name="Monster" type="Node2D"]
+script = ExtResource("1_y7n86")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -0.785398
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+rotation = -0.785398
