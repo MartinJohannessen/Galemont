@@ -1,8 +1,7 @@
 extends Node2D
 
 # Assuming these are paths to your monster scenes
-var monster_types = []#["res://MonsterTypes/mister_mister.tscn", "res://MonsterTypes/necrocloak.tscn", "res://MonsterTypes/roc.tscn"]
-
+var monster_types = []
 
 func find_monsters(path):
 	var dir = DirAccess.open(path)
@@ -32,5 +31,6 @@ func spawn_monsters():
 		var monster_instance = monster_scene.instantiate()
 		monster_instance.position = marker.position
 		get_node("MonsterContainer").add_child(monster_instance)
+
 
 

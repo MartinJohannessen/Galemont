@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://coibjfmlm6j8j"]
+[gd_scene load_steps=4 format=3 uid="uid://coibjfmlm6j8j"]
 
 [ext_resource type="Script" path="res://battle.gd" id="1_m07up"]
 [ext_resource type="Texture2D" uid="uid://jumlfjvkkv15" path="res://formationPlatforms/minimalistBattlestage.png" id="1_vi102"]
+[ext_resource type="Script" path="res://MonsterContainer.gd" id="3_qkwdc"]
 
 [node name="Battle" type="Node2D"]
 position = Vector2(416, -344)
@@ -24,28 +25,29 @@ uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11
 
 [node name="MonsterMarkers" type="Node2D" parent="."]
 
-[node name="FriendlyNorthPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="FriendlyNorth" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(763.675, 842.871)
 
-[node name="FriendlyEastPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="FriendlyEast" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(1012.58, 820.244)
 
-[node name="FriendlySouthPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="FriendlySouth" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(989.95, 1069.15)
 
-[node name="FriendlyWestPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="FriendlyWest" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(752.362, 1091.77)
 
-[node name="EnemyNorthPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="EnemyNorth" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(316.784, 395.98)
 
-[node name="EnemyEastPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="EnemyEast" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(560.029, 367.696)
 
-[node name="EnemySouthPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="EnemySouth" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(543.058, 610.94)
 
-[node name="EnemyWestPosition" type="Marker2D" parent="MonsterMarkers"]
+[node name="EnemyWest" type="Marker2D" parent="MonsterMarkers"]
 position = Vector2(294.156, 633.568)
 
 [node name="MonsterContainer" type="Node2D" parent="."]
+script = ExtResource("3_qkwdc")

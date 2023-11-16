@@ -1,8 +1,8 @@
 extends Node2D  # or KinematicBody2D, RigidBody2D, etc., based on your needs
 
 # Exported variables that can be set in the editor for each monster type
-@export var health = 10
-@export var damage = 2
+@export var health: int = 10
+@export var damage: int = 2
 
 func _ready():
 	play_animation_if_possible()
