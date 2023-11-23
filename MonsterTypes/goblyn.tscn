@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://itan68bi350g"]
 
-[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_pyy1v"]
+[ext_resource type="PackedScene" uid="uid://s8dg8frv3qw4" path="res://monster.tscn" id="1_pyy1v"]
 [ext_resource type="Texture2D" uid="uid://dl76vuvofueyd" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin1.png" id="2_0uh0a"]
 [ext_resource type="Texture2D" uid="uid://bv2ovxcnfa5s6" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin2.png" id="3_cfhvo"]
 [ext_resource type="Texture2D" uid="uid://fvbgwct1qa4y" path="res://Art Assets/Monsters/32x32/Goblyn/sGoblin3.png" id="4_jsmuq"]
@@ -49,5 +49,6 @@ animations = [{
 [node name="Goblyn" instance=ExtResource("1_pyy1v")]
 
 [node name="AnimatedSprite2D" parent="." index="2"]
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_mqjwr")
 frame_progress = 0.136535

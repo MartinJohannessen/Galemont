@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://bk360lnst0lky"]
 
-[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_stbh7"]
+[ext_resource type="PackedScene" uid="uid://s8dg8frv3qw4" path="res://monster.tscn" id="1_stbh7"]
 [ext_resource type="Texture2D" uid="uid://bf4xe41jyl284" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister1.png" id="2_iokag"]
 [ext_resource type="Texture2D" uid="uid://fyf22jy1jkgp" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister2.png" id="3_hjdh8"]
 [ext_resource type="Texture2D" uid="uid://cr5w3uyk8k3og" path="res://Art Assets/Monsters/64x64/MisterMister/sMisterMister3.png" id="4_ih5cb"]
@@ -61,5 +61,6 @@ animations = [{
 [node name="MisterMister" instance=ExtResource("1_stbh7")]
 
 [node name="AnimatedSprite2D" parent="." index="2"]
+scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_5i0ms")
 frame_progress = 0.138463
