@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dcvk45tj4m8x8"
+path="res://.godot/imported/18e9ec49-de59-4977-94e5-0a12639aed56.png-c98a6fb8df9bcdabfc01a8a88250f58a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_Cyclotron/layers/3500b618-f4c4-41aa-8c82-b0c35a4b8a43/18e9ec49-de59-4977-94e5-0a12639aed56.png"
+dest_files=["res://.godot/imported/18e9ec49-de59-4977-94e5-0a12639aed56.png-c98a6fb8df9bcdabfc01a8a88250f58a.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

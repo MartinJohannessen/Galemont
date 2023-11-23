@@ -1,15 +1,43 @@
-[gd_scene load_steps=2 format=3 uid="uid://bv5lkhwu1ntye"]
+[gd_scene load_steps=5 format=3 uid="uid://s8dg8frv3qw4"]
 
 [ext_resource type="Script" path="res://monster.gd" id="1_y7n86"]
+[ext_resource type="Script" path="res://AnimationPlayer.gd" id="2_g3jfo"]
+
+[sub_resource type="Curve" id="Curve_ellj7"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_26weh"]
+min_value = -1.0
+_data = [Vector2(0, -1), 0.0, 2.8, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
 
 [node name="Monster" type="Node2D"]
 script = ExtResource("1_y7n86")
 
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 100
+lifetime = 0.25
+one_shot = true
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 81.16
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 300.0
+initial_velocity_max = 383.84
+scale_amount_min = 20.0
+scale_amount_max = 28.5
+scale_amount_curve = SubResource("Curve_ellj7")
+color = Color(0.980392, 0, 1, 0.572549)
+hue_variation_curve = SubResource("Curve_26weh")
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
 rotation = -0.785398
 
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-emitting = false
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 rotation = -0.785398
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+script = ExtResource("2_g3jfo")

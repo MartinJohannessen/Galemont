@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://coibjfmlm6j8j"]
+[gd_scene load_steps=5 format=3 uid="uid://coibjfmlm6j8j"]
 
 [ext_resource type="Script" path="res://battle.gd" id="1_m07up"]
 [ext_resource type="Texture2D" uid="uid://jumlfjvkkv15" path="res://formationPlatforms/minimalistBattlestage.png" id="1_vi102"]
 [ext_resource type="Script" path="res://MonsterContainer.gd" id="3_qkwdc"]
+[ext_resource type="Script" path="res://BattleControl.gd" id="4_0btur"]
 
 [node name="Battle" type="Node2D"]
 position = Vector2(416, -344)
@@ -10,44 +11,49 @@ rotation = 0.785398
 script = ExtResource("1_m07up")
 metadata/_edit_group_ = true
 
-[node name="BackgroundImages" type="Node2D" parent="."]
+[node name="BattleControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("4_0btur")
 
-[node name="EnemyPlatform" type="Polygon2D" parent="BackgroundImages"]
+[node name="BackgroundStage" type="Node2D" parent="."]
+
+[node name="EnemyPlatform" type="Polygon2D" parent="BackgroundStage"]
 texture = ExtResource("1_vi102")
 polygon = PackedVector2Array(656.195, 735.391, 684.479, 254.559, 203.647, 282.843, 175.362, 763.675)
 uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11.7647, 1017.65)
 
-[node name="FriendlyPlatform" type="Polygon2D" parent="BackgroundImages"]
+[node name="FriendlyPlatform" type="Polygon2D" parent="BackgroundStage"]
 position = Vector2(458.205, 458.205)
 texture = ExtResource("1_vi102")
 polygon = PackedVector2Array(197.99, 277.186, 678.823, 248.902, 650.538, 729.734, 169.706, 758.018)
 uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11.7647, 1017.65)
 
-[node name="MonsterMarkers" type="Node2D" parent="."]
-
-[node name="FriendlyNorth" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(763.675, 842.871)
-
-[node name="FriendlyEast" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(1012.58, 820.244)
-
-[node name="FriendlySouth" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(989.95, 1069.15)
-
-[node name="FriendlyWest" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(752.362, 1091.77)
-
-[node name="EnemyNorth" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(316.784, 395.98)
-
-[node name="EnemyEast" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(560.029, 367.696)
-
-[node name="EnemySouth" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(543.058, 610.94)
-
-[node name="EnemyWest" type="Marker2D" parent="MonsterMarkers"]
-position = Vector2(294.156, 633.568)
-
 [node name="MonsterContainer" type="Node2D" parent="."]
 script = ExtResource("3_qkwdc")
+
+[node name="FriendlyNorth" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(763.675, 842.871)
+
+[node name="FriendlyEast" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(1012.58, 820.244)
+
+[node name="FriendlySouth" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(989.95, 1069.15)
+
+[node name="FriendlyWest" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(752.362, 1091.77)
+
+[node name="EnemyNorth" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(316.784, 395.98)
+
+[node name="EnemyEast" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(560.029, 367.696)
+
+[node name="EnemySouth" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(543.058, 610.94)
+
+[node name="EnemyWest" type="Marker2D" parent="MonsterContainer"]
+position = Vector2(294.156, 633.568)

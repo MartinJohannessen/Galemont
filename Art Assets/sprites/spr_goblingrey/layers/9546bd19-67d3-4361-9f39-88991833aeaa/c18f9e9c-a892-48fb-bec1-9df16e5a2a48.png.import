@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cimh6epxemvtp"
+path="res://.godot/imported/c18f9e9c-a892-48fb-bec1-9df16e5a2a48.png-c732d53e6032668b75ba4f8e3ab2df80.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_goblingrey/layers/9546bd19-67d3-4361-9f39-88991833aeaa/c18f9e9c-a892-48fb-bec1-9df16e5a2a48.png"
+dest_files=["res://.godot/imported/c18f9e9c-a892-48fb-bec1-9df16e5a2a48.png-c732d53e6032668b75ba4f8e3ab2df80.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

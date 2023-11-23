@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://gm1i260i045v"
+path="res://.godot/imported/c3e4b32c-89cc-4e25-a02d-a30d26d7980c.png-256ea3b382b46069982f995f19f32a4f.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_battle_bg_03/c3e4b32c-89cc-4e25-a02d-a30d26d7980c.png"
+dest_files=["res://.godot/imported/c3e4b32c-89cc-4e25-a02d-a30d26d7980c.png-256ea3b382b46069982f995f19f32a4f.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

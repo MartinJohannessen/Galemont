@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c1620aagtu3yy"
+path="res://.godot/imported/9517c6de-1465-40af-b3bd-91ed9aba5c33.png-56a28b4ce933cca5d14b52908796cdc9.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_Lizardman/layers/4baea7f8-7fc7-4e04-823f-0dc0c3dadfdb/9517c6de-1465-40af-b3bd-91ed9aba5c33.png"
+dest_files=["res://.godot/imported/9517c6de-1465-40af-b3bd-91ed9aba5c33.png-56a28b4ce933cca5d14b52908796cdc9.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

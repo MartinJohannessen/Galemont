@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cmv80hr7c0rj6"
+path="res://.godot/imported/949e92b4-2c82-4926-a223-b7a8362d6eab.png-af767d58ac937dfa3f9bd90d9a6a0477.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/Pallete13/layers/2752055b-aacb-4178-a501-f98339b7371f/949e92b4-2c82-4926-a223-b7a8362d6eab.png"
+dest_files=["res://.godot/imported/949e92b4-2c82-4926-a223-b7a8362d6eab.png-af767d58ac937dfa3f9bd90d9a6a0477.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

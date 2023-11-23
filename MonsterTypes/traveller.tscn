@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://csamwf186d77w"]
 
-[ext_resource type="PackedScene" uid="uid://bv5lkhwu1ntye" path="res://monster.tscn" id="1_xmpmw"]
+[ext_resource type="PackedScene" uid="uid://s8dg8frv3qw4" path="res://monster.tscn" id="1_xmpmw"]
 [ext_resource type="Texture2D" uid="uid://iypvonuxby2o" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller1.png" id="2_76jan"]
 [ext_resource type="Texture2D" uid="uid://b2em6e81qtswm" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller2.png" id="3_7igw8"]
 [ext_resource type="Texture2D" uid="uid://cmrdtaqtlr340" path="res://Art Assets/Monsters/64x64/Traveller/sTraveller3.png" id="4_ml3ya"]

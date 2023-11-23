@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://m3uvdvq07mkc"
+path="res://.godot/imported/fd74000f-e67b-4fd4-90a8-1e4dd3609e71.png-6bc58d93af6754c19c6cc7a61ca9fd74.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_spookysprites/layers/d9dae4fa-c59a-4714-99b6-460b09e4a5b1/fd74000f-e67b-4fd4-90a8-1e4dd3609e71.png"
+dest_files=["res://.godot/imported/fd74000f-e67b-4fd4-90a8-1e4dd3609e71.png-6bc58d93af6754c19c6cc7a61ca9fd74.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

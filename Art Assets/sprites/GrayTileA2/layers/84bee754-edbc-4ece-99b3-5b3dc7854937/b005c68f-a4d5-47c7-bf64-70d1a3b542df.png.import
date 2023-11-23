@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://brs0xc4gnl1yl"
+path="res://.godot/imported/b005c68f-a4d5-47c7-bf64-70d1a3b542df.png-96873352924ceab1ea93014e90b34163.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/GrayTileA2/layers/84bee754-edbc-4ece-99b3-5b3dc7854937/b005c68f-a4d5-47c7-bf64-70d1a3b542df.png"
+dest_files=["res://.godot/imported/b005c68f-a4d5-47c7-bf64-70d1a3b542df.png-96873352924ceab1ea93014e90b34163.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

@@ -11,6 +11,11 @@ func play_animation_if_possible():
 	var animated_sprite = $AnimatedSprite2D
 	if is_instance_valid(animated_sprite):
 		animated_sprite.play()
+		
+
+func flip_sprite():
+	var animation_player = $AnimationPlayer
+	animation_player.play("swap/flip")
 
 func take_damage(amount):
 	health -= amount

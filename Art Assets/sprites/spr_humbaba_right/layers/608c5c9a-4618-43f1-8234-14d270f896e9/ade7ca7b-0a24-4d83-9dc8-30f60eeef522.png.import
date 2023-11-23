@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c02ae8r500ur5"
+path="res://.godot/imported/ade7ca7b-0a24-4d83-9dc8-30f60eeef522.png-2bba4dad5e37b3127243e4e0c764b47d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_humbaba_right/layers/608c5c9a-4618-43f1-8234-14d270f896e9/ade7ca7b-0a24-4d83-9dc8-30f60eeef522.png"
+dest_files=["res://.godot/imported/ade7ca7b-0a24-4d83-9dc8-30f60eeef522.png-2bba4dad5e37b3127243e4e0c764b47d.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

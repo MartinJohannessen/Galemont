@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tmyibva510q6"
+path="res://.godot/imported/d092d5fa-b2c4-43f8-b351-51dba6140877.png-cbd8e2adf75d635bb261997a7a7681a1.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/spr_Knightmaster/d092d5fa-b2c4-43f8-b351-51dba6140877.png"
+dest_files=["res://.godot/imported/d092d5fa-b2c4-43f8-b351-51dba6140877.png-cbd8e2adf75d635bb261997a7a7681a1.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

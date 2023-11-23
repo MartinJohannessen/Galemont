@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://yeph1kj3xr1s"
+path="res://.godot/imported/755394d1-2999-4c05-a3c9-4220dacadc6a.png-243805cc1c67746fea986c813a1cbfcd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art Assets/sprites/GrayAnimals01/layers/ad3620e7-8fa1-4471-9076-8ed6ff82f78c/755394d1-2999-4c05-a3c9-4220dacadc6a.png"
+dest_files=["res://.godot/imported/755394d1-2999-4c05-a3c9-4220dacadc6a.png-243805cc1c67746fea986c813a1cbfcd.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1
