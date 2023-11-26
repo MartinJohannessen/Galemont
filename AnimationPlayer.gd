@@ -4,7 +4,6 @@ extends AnimationPlayer
 var animated_sprite_path: = "AnimatedSprite2D"
 var swap = AnimationLibrary.new() as AnimationLibrary
 
-
 func _ready():
 	setup_flip_animation()
 

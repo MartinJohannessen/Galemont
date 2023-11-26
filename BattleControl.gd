@@ -25,8 +25,13 @@ func _process(delta):
 		monster1.flip_sprite()
 		monster2.flip_sprite()
 	
-	# Swap Logic
+	# Swap monster Logic
 	if selected_marker_name != "" and Input.is_action_just_pressed("confirm"): # Assuming 'space' is mapped to 'ui_accept'
 		get_parent().get_node("MonsterContainer").swap_monsters(selected_marker_name, "FriendlyNorth")
 		selected_marker_name = "" # Reset selection after swap
+	
+	# Flip friendly side logic
+	elif selected_marker_name == "" and Input.is_action_just_pressed("confirm"): # Assuming 'space' is mapped to 'ui_accept'
+		get_parent().get_node("FriendlySide").flip_side()
+
 
