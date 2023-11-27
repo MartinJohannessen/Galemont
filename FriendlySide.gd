@@ -1,10 +1,12 @@
 # FriendlySide.gd (Attached to FriendlySide Node2D)
 extends Node2D
 
+
 var animation_player = null  # Will hold the AnimationPlayer
 var friendly_animation_library = AnimationLibrary.new() as AnimationLibrary
 
 func _ready():
+	var monster_side_up_bool = true
 	setup_animation_player()
 
 func setup_animation_player():
@@ -17,8 +19,6 @@ func setup_animation_player():
 	
 	setup_flip_animation_second_half()
 	
-	
-
 func setup_flip_animation_first_half():
 
 	var original_scale = scale

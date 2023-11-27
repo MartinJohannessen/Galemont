@@ -1,21 +1,25 @@
 extends Control
 
+var monster_side_up
 var selected_marker_name = ""
 
 func _ready():
-	pass# Initialize monsters array with CPUParticles2D nodes
-	# ...
+	monster_side_up = true
 
 func _process(delta):
 		# Selection Logic
 	if Input.is_action_just_pressed("west"): # Assuming 'a' is mapped to 'ui_left'
-		selected_marker_name = "FriendlyWest"
+		if monster_side_up:
+			selected_marker_name = "FriendlyWest"
 	elif Input.is_action_just_pressed("south"): # Assuming 's' is mapped to 'ui_down'
-		selected_marker_name = "FriendlySouth"
+		if monster_side_up:
+			selected_marker_name = "FriendlySouth"
 	elif Input.is_action_just_pressed("east"): # Assuming 'd' is mapped to 'ui_right'
-		selected_marker_name = "FriendlyEast"
+		if monster_side_up:
+			selected_marker_name = "FriendlyEast"
 	elif Input.is_action_just_pressed("north"): # Assuming 'd' is mapped to 'ui_right'
-		selected_marker_name = ""
+		if monster_side_up:
+			selected_marker_name = ""
 		
 	
 	# Highlight selection
@@ -33,5 +37,6 @@ func _process(delta):
 	# Flip friendly side logic
 	elif selected_marker_name == "" and Input.is_action_just_pressed("confirm"): # Assuming 'space' is mapped to 'ui_accept'
 		get_parent().get_node("FriendlySide").flip_side()
+		monster_side_up = not monster_side_up
 
 
