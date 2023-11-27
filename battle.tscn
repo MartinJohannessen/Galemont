@@ -25,6 +25,23 @@ texture = ExtResource("1_vi102")
 polygon = PackedVector2Array(656.195, 735.391, 684.479, 254.559, 203.647, 282.843, 175.362, 763.675)
 uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11.7647, 1017.65)
 
+[node name="MonsterContainer" type="Node2D" parent="EnemySide"]
+position = Vector2(9.15527e-05, 6.10352e-05)
+scale = Vector2(1, 1)
+script = ExtResource("3_qkwdc")
+
+[node name="EnemyNorth" type="Marker2D" parent="EnemySide/MonsterContainer"]
+position = Vector2(316.784, 395.98)
+
+[node name="EnemyEast" type="Marker2D" parent="EnemySide/MonsterContainer"]
+position = Vector2(560.029, 367.696)
+
+[node name="EnemySouth" type="Marker2D" parent="EnemySide/MonsterContainer"]
+position = Vector2(543.058, 610.94)
+
+[node name="EnemyWest" type="Marker2D" parent="EnemySide/MonsterContainer"]
+position = Vector2(294.156, 633.568)
+
 [node name="FriendlySide" type="Node2D" parent="."]
 position = Vector2(876.812, 956.008)
 rotation = 0.785398
@@ -37,29 +54,19 @@ texture = ExtResource("1_vi102")
 polygon = PackedVector2Array(197.99, 277.186, 678.823, 248.902, 650.538, 729.734, 169.706, 758.018)
 uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11.7647, 1017.65)
 
-[node name="MonsterContainer" type="Node2D" parent="."]
+[node name="MonsterContainer" type="Node2D" parent="FriendlySide"]
+position = Vector2(-1296, -56.0003)
+rotation = -0.785398
 script = ExtResource("3_qkwdc")
 
-[node name="FriendlyNorth" type="Marker2D" parent="MonsterContainer"]
+[node name="FriendlyNorth" type="Marker2D" parent="FriendlySide/MonsterContainer"]
 position = Vector2(763.675, 842.871)
 
-[node name="FriendlyEast" type="Marker2D" parent="MonsterContainer"]
+[node name="FriendlyEast" type="Marker2D" parent="FriendlySide/MonsterContainer"]
 position = Vector2(1012.58, 820.244)
 
-[node name="FriendlySouth" type="Marker2D" parent="MonsterContainer"]
+[node name="FriendlySouth" type="Marker2D" parent="FriendlySide/MonsterContainer"]
 position = Vector2(989.95, 1069.15)
 
-[node name="FriendlyWest" type="Marker2D" parent="MonsterContainer"]
+[node name="FriendlyWest" type="Marker2D" parent="FriendlySide/MonsterContainer"]
 position = Vector2(752.362, 1091.77)
-
-[node name="EnemyNorth" type="Marker2D" parent="MonsterContainer"]
-position = Vector2(316.784, 395.98)
-
-[node name="EnemyEast" type="Marker2D" parent="MonsterContainer"]
-position = Vector2(560.029, 367.696)
-
-[node name="EnemySouth" type="Marker2D" parent="MonsterContainer"]
-position = Vector2(543.058, 610.94)
-
-[node name="EnemyWest" type="Marker2D" parent="MonsterContainer"]
-position = Vector2(294.156, 633.568)

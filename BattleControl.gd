@@ -20,14 +20,14 @@ func _process(delta):
 	
 	# Highlight selection
 	if selected_marker_name != "":
-		var monster1 = get_parent().get_node("MonsterContainer").get_node("FriendlyNorth").get_child(0)
-		var monster2 = get_parent().get_node("MonsterContainer").get_node(selected_marker_name).get_child(0)
+		var monster1 = get_parent().get_node("FriendlySide/MonsterContainer").get_node("FriendlyNorth").get_child(0)
+		var monster2 = get_parent().get_node("FriendlySide/MonsterContainer").get_node(selected_marker_name).get_child(0)
 		monster1.flip_sprite()
 		monster2.flip_sprite()
 	
 	# Swap monster Logic
 	if selected_marker_name != "" and Input.is_action_just_pressed("confirm"): # Assuming 'space' is mapped to 'ui_accept'
-		get_parent().get_node("MonsterContainer").swap_monsters(selected_marker_name, "FriendlyNorth")
+		get_parent().get_node("FriendlySide/MonsterContainer").swap_monsters(selected_marker_name, "FriendlyNorth")
 		selected_marker_name = "" # Reset selection after swap
 	
 	# Flip friendly side logic
