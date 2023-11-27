@@ -27,7 +27,6 @@ uv = PackedVector2Array(8.82353, 8.82355, 1013.24, 10.2942, 1008.82, 1014.71, 11
 
 [node name="MonsterContainer" type="Node2D" parent="EnemySide"]
 position = Vector2(9.15527e-05, 6.10352e-05)
-scale = Vector2(1, 1)
 script = ExtResource("3_qkwdc")
 
 [node name="EnemyNorth" type="Marker2D" parent="EnemySide/MonsterContainer"]
