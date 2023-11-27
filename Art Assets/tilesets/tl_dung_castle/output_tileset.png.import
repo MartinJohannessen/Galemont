@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gvs31sucluwg"
-path="res://.godot/imported/output_tileset.png-08e101d3563be0c86ffc88f30e133213.ctex"
+path="res://.godot/imported/output_tileset.png-4b6e0426c4fba0af8d21f9d8a82fdbec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Assets/tilesets/tl_dung_castle/output_tileset.png"
-dest_files=["res://.godot/imported/output_tileset.png-08e101d3563be0c86ffc88f30e133213.ctex"]
+source_file="res://Art Assets/Tilesets/tl_dung_castle/output_tileset.png"
+dest_files=["res://.godot/imported/output_tileset.png-4b6e0426c4fba0af8d21f9d8a82fdbec.ctex"]
 
 [params]
 

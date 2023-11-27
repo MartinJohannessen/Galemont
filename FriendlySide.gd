@@ -25,10 +25,10 @@ func setup_flip_animation_first_half():
 	var animation = Animation.new()
 	var scale_track_index = animation.add_track(Animation.TYPE_VALUE)
 	
-	animation.length = 0.3
+	animation.length = 0.1
 	animation.track_set_path(scale_track_index, ":scale")
 	animation.track_insert_key(scale_track_index, 0, original_scale)                 # Time 0
-	animation.track_insert_key(scale_track_index, 0.3, Vector2(original_scale.x, 0)) # Time 0.3
+	animation.track_insert_key(scale_track_index, 0.1, Vector2(original_scale.x, 0)) # Time 0.3
 
 	friendly_animation_library.add_animation("flip_friendly_first", animation)
 
@@ -39,10 +39,10 @@ func setup_flip_animation_second_half():
 	var animation = Animation.new()
 	var scale_track_index = animation.add_track(Animation.TYPE_VALUE)
 	
-	animation.length = 0.3
+	animation.length = 0.1
 	animation.track_set_path(scale_track_index, ":scale")
 	animation.track_insert_key(scale_track_index, 0.0, Vector2(original_scale.x, 0)) # Time 0.3
-	animation.track_insert_key(scale_track_index, 0.3, original_scale)               # Time 0.6
+	animation.track_insert_key(scale_track_index, 0.1, original_scale)               # Time 0.6
 
 	friendly_animation_library.add_animation("flip_friendly_second", animation)
 	

@@ -12,7 +12,7 @@ func setup_flip_animation():
 	var original_scale = animated_sprite.scale
 	var animation = Animation.new()
 	var track_index = animation.add_track(Animation.TYPE_VALUE)
-	animation.length = 0.75  # Animation duration
+	animation.length = 0.6  # Animation duration
 	animation.track_set_path(track_index, animated_sprite_path + ":scale")
 	animation.track_insert_key(track_index, 0, original_scale)                      # Time 0
 	animation.track_insert_key(track_index, 0.3, Vector2(0, original_scale.y)) # Time 0.3
